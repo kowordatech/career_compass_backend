@@ -1,0 +1,29 @@
+{
+  "name": "careercompass_backend",
+  "version": "1.0.0",
+  "description": "complete backend for career_compass",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kowordatech/career_compass_backend.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Manasseh Kwame Kabutey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kowordatech/career_compass_backend/issues"
+  },
+  "homepage": "https://github.com/kowordatech/career_compass_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0"
+  }
+}
