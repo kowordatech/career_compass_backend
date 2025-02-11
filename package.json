@@ -4,7 +4,9 @@
   "description": "complete backend for career_compass",
   "main": "index.js",
   "scripts": {
-    "test": "npm run dev"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
